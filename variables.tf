@@ -1,8 +1,8 @@
-variable "tags" {
-  type        = map(string)
-  description = "Common tag set for PEGA project resources"
-  default     = {}
-}
+# variable "tags" {
+#   type        = map(string)
+#   description = "Common tag set for PEGA project resources"
+#   default     = {}
+# }
 
 variable "certificate" {
   type        = string
@@ -102,3 +102,4 @@ variable "waf_policy_id" {
   description = "WAF policy ID to associate with the domains. (default: OTC will create a default policy)"
   default     = null
 }
+
